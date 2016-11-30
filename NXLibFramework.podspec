@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NXLibFramework'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of NXLibFramework.'
 
 # This description is used to generate tags and improve search results.
@@ -21,22 +21,24 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/NXLibFramework'
+  s.homepage         = 'https://github.com/jsonwang/NXLibFramework'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jsonwang' => '287971051@qq.com.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/NXLibFramework.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/jsonwang/NXLibFramework.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.platform     = :ios, '8.0'
+  s.requires_arc = true
 
   s.source_files = 'NXLibFramework/Classes/**/*'
-  
+  #
   # s.resource_bundles = {
   #   'NXLibFramework' => ['NXLibFramework/Assets/*.png']
   # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  #
+  # s.public_header_files = 'NXLibFramework/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

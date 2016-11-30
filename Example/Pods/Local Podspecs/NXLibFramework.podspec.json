@@ -1,0 +1,22 @@
+{
+  "name": "NXLibFramework",
+  "version": "0.1.0",
+  "summary": "A short description of NXLibFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/NXLibFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jsonwang": "287971051@qq.com.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/NXLibFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NXLibFramework/Classes/**/*"
+}

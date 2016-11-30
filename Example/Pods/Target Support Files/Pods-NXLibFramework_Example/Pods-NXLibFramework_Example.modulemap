@@ -1,0 +1,6 @@
+framework module Pods_NXLibFramework_Example {
+  umbrella header "Pods-NXLibFramework_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

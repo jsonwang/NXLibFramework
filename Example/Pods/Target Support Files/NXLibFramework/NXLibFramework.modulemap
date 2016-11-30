@@ -1,0 +1,6 @@
+framework module NXLibFramework {
+  umbrella header "NXLibFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

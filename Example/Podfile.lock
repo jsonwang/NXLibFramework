@@ -1,0 +1,26 @@
+PODS:
+  - FBSnapshotTestCase (2.1.0):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.0)
+  - FBSnapshotTestCase/Core (2.1.0)
+  - FBSnapshotTestCase/SwiftSupport (2.1.0):
+    - FBSnapshotTestCase/Core
+  - Kiwi (2.4.0)
+  - NXLibFramework (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - Kiwi
+  - NXLibFramework (from `../`)
+
+EXTERNAL SOURCES:
+  NXLibFramework:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 366ecd378511d7716c79991cd8067d1eed23578d
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  NXLibFramework: 084de2b1af05c652662e3eb254e0e56bbc19ccec
+
+PODFILE CHECKSUM: 880290a52848d79c39b024261fe0e033252471ea
+
+COCOAPODS: 1.1.1
